@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outLine:none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+html{
+    font-size: 100%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    width: 0.8rem;
+} 
+html::-webkit-scrollbar-track{
+    background: transparent;
+} 
+html::-webkit-scrollbar-thumb{
+    background: #031546;
+}
+#head{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 9%;
+    color:#031546;
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height:100%;
+    left: 0;
+    background-color: rgb(251, 251, 255);
+    width: 90px;
+    overflow: hidden;
+    transition: width 0..2s linear;
+    box-shadow: 0px 20px 35px rgba(0,0,0,0.1);
+}
+#logo{
+    text-align: center;
+    display:flex;
+    transition: all 0.5s ease;
+    color: #031546;
+}
+#logo img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.b{
+    position: relative;
+    color: #031546;
+    font-size: 20px;
+    display: table;
+    width: 200px;
+    padding: 10px;
+}
+.fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top:14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px; 
+}
+nav:hover{
+    width: 220px;
+    transition: all 0.5s ease;
+    
+}
+#logout{
+    position: absolute;
+    bottom: 0;
+}
+.topbar{
+    margin-left: 92px;
+}
+.container{
+    margin-left: 10rem;
+}
+.colomn{
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 19rem; /* Adjust the width to occupy approximately one-third of the container width */
+    min-height: 10%;
+    margin: 15px; /* Adjust the margin as needed */
+}
+.card-img-top {
+    height: 14rem;
+}
+.card-text {
+    font-size: 19px;
+    font-family: "Comic Sans MS";
+}
+.details {
+    color: #636c72;
+    font: 17px 'Candara';
+}
+.btn {
+    width: 19rem; /* Adjust the width of the button to match the width of the card */
+    margin-bottom: -25px;
+    background-color: #031546;
+    color:white;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.progress-bar {
+    margin-top: .5rem;
+    background-color: white;
+    width: 19rem; /* Adjust the width of the progress bar to match the width of the card */
+    border: 1px solid gray;
+    height: 25px;
+}
+.progress{
+    background-color: rgb(42, 56, 165);
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 2px;
+    font-weight: bold;
+    color:white;
+}
+
+
